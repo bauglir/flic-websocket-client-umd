@@ -11,3 +11,6 @@ CC0](https://raw.githubusercontent.com/50ButtonsEach/fliclib-linux-hci/master/CO
 is included in this package. However, the server component still needs to be
 obtained (and managed separately) from
 https://github.com/50ButtonsEach/fliclib-linux-hci.
+
+The currently included client was vendored from
+50ButtonsEach/fliclib-linux-hci@4971a641adc62918a4ec8901b1d1e06160de8a1d.
