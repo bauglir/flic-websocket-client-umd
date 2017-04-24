@@ -1,0 +1,34 @@
+{
+  "name": "flic-websocket-client-umd",
+  "version": "0.1.0",
+  "description": "A UMD module wrapper around the WebSocket Flic client released by Shortcut Labs",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bauglir/flic-websocket-client-umd.git"
+  },
+  "scripts": {
+    "dist": "webpack --env.production",
+    "start": "webpack --env.development"
+  },
+  "keywords": [
+    "Client",
+    "Flic",
+    "UMD",
+    "WebSocket"
+  ],
+  "author": "Joris Kraak <me@joriskraak.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bauglir/flic-websocket-client-umd/issues"
+  },
+  "homepage": "https://github.com/bauglir/flic-websocket-client-umd#readme",
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.24.1",
+    "exports-loader": "0.6.4",
+    "webpack": "2.4.1"
+  }
+}
